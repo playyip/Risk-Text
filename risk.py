@@ -100,19 +100,15 @@ class countries:
 			2 : 'Iceland', # Europe
 			3 : 'Northwest Territory',
 			4 : 'Ontario' }
-		
-		# South America (2)
-south_america = [ 'venezuela',
-			'peru',
-			'argentina',
-			'brazil' ];
 		elif c==south_america[0]:
 			nb = { 1 : 'Central America',
 			2 : 'Brazil',
 			3 : 'Peru',
 			4 : 'Central America' }
 		elif c==south_america[1]:
-			nb
+			nb = { 1 : 'brazil',
+			2 : 'argentina',
+			3 : 'venezuela' }
 
 
 		return nb
