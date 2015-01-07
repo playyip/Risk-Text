@@ -100,6 +100,7 @@ class countries:
 			2 : 'Iceland', # Europe
 			3 : 'Northwest Territory',
 			4 : 'Ontario' }
+		# South America (2pt)
 		elif c==south_america[0]:
 			nb = { 1 : 'Central America',
 			2 : 'Brazil',
@@ -117,6 +118,22 @@ class countries:
 			2 : 'peru',
 			3 : 'argentina',
 			4 : 'north africa' } # Africa
+		# Australia (2pt)
+		elif c==australia[0]:
+			nb = { 1 : 'eastern australia',
+			2 : 'new guinea',
+			3 : 'indonesia' }
+		elif c==australia[1]:
+			nb = { 1 : 'western australia',
+			2 : 'new guinea', }
+		elif c==australia[2]:
+			nb = { 1 : 'indonesia',
+			2 : 'western australia',
+			3 : 'eastern australia' }
+		elif c==australia[3]:
+			nb = { 1 : 'siam', # Asia
+			2 : 'new guinea',
+			3 : 'western australia' }
 
 		return nb
 	def continent(self, c):
