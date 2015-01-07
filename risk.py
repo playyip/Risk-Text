@@ -109,7 +109,14 @@ class countries:
 			nb = { 1 : 'brazil',
 			2 : 'argentina',
 			3 : 'venezuela' }
-
+		elif c==south_america[2]:
+			nb = { 1 : 'peru',
+			2 : 'brazil' }
+		elif c==south_america[3]:
+			nb = { 1 : 'venezuela',
+			2 : 'peru',
+			3 : 'argentina',
+			4 : 'north africa' } # Africa
 
 		return nb
 	def continent(self, c):
@@ -143,7 +150,7 @@ foo = countries()
 print('Countries are: ')
 nb = foo.neighbouring("ONTARIO")
 for x in range(1, len(nb)+1):
-	print(nb[x])
+	print(nb[x].title())
 print("")
 print("")
 
